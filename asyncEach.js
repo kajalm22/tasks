@@ -9,7 +9,7 @@ function createUser (username , callback){
 async.each(array1 , function(eachUserName , callback){
 
     console.log("Creating users : " , eachUserName)
-    createUser(eachUserName , callback)
+    createUser(eachUserName , callback)              
 },
 function(err){
     if(err){
